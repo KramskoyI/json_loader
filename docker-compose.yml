@@ -1,0 +1,14 @@
+services:
+  json_loader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: json_loader_app
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
+    stdin_open: true
+    tty: true

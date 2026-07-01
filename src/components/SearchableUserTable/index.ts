@@ -1,0 +1,1 @@
+export { SearchableUserTable } from './SearchableUserTable';

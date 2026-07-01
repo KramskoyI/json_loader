@@ -1,0 +1,12 @@
+.ui-searchable {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.ui-searchable__highlight {
+    background-color: #ff7676;
+    color: #ffffff;
+    padding: 0 0.125rem;
+}

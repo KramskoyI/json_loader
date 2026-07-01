@@ -1,0 +1,16 @@
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border-radius: 5px;
+  border: 3px solid blue ;
+  font-size: 20px;
+  background-color: white;
+}
+
+.ui-button:hover {
+  cursor: pointer;
+}
+
+

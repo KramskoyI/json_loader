@@ -1,0 +1,20 @@
+.download-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.download-controls__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.download-controls__progress {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.download-controls__error {
+  color: #b00020;
+}

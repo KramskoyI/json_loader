@@ -1,0 +1,49 @@
+.table {
+  width: 100%;
+}
+
+.table__head {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.table__head-row,
+.table__row {
+  display: grid;
+  width: 100%;
+}
+
+.table__scroll {
+  width: 100%;
+}
+
+.table__body {
+  position: relative;
+  width: 100%;
+}
+
+.table__row {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.table__head-cell,
+.table__cell {
+  align-items: center;
+  border: 1px solid #1f2937;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table__head-cell {
+  background: #0057d9;
+  color: #ffffff;
+}
